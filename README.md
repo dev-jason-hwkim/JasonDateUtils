@@ -34,7 +34,7 @@ end
 ### Convert Date To String
 
 ```swift
-let date = Date()  // 2019-11-20 04:41:59 +0000
+let date = Date()  
 
 date.string(dateFormat: "yyyy-MM-dd")
 date.string(dateFormat: "yyyy-MM-dd HH:mm:ss")
