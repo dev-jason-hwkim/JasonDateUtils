@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		963FD36E2384D10A0048C5A4 /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963FD36D2384D10A0048C5A4 /* String+Date.swift */; };
+		963FD3702384D1170048C5A4 /* Date+Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963FD36F2384D1170048C5A4 /* Date+Strings.swift */; };
 		967A19252384CFEE005E7A1B /* JasonDateUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967A191B2384CFEE005E7A1B /* JasonDateUtils.framework */; };
 		967A192A2384CFEE005E7A1B /* JasonDateUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967A19292384CFEE005E7A1B /* JasonDateUtilsTests.swift */; };
 		967A192C2384CFEE005E7A1B /* JasonDateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 967A191E2384CFEE005E7A1B /* JasonDateUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		963FD36D2384D10A0048C5A4 /* String+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Date.swift"; sourceTree = "<group>"; };
+		963FD36F2384D1170048C5A4 /* Date+Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Strings.swift"; sourceTree = "<group>"; };
 		967A191B2384CFEE005E7A1B /* JasonDateUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JasonDateUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		967A191E2384CFEE005E7A1B /* JasonDateUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JasonDateUtils.h; sourceTree = "<group>"; };
 		967A191F2384CFEE005E7A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				967A191E2384CFEE005E7A1B /* JasonDateUtils.h */,
+				963FD36D2384D10A0048C5A4 /* String+Date.swift */,
+				963FD36F2384D1170048C5A4 /* Date+Strings.swift */,
 				967A191F2384CFEE005E7A1B /* Info.plist */,
 			);
 			path = JasonDateUtils;
@@ -148,6 +154,7 @@
 				TargetAttributes = {
 					967A191A2384CFEE005E7A1B = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
 					};
 					967A19232384CFEE005E7A1B = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -195,6 +202,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963FD3702384D1170048C5A4 /* Date+Strings.swift in Sources */,
+				963FD36E2384D10A0048C5A4 /* String+Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +349,7 @@
 		967A19302384CFEE005E7A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,6 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jason.JasonDateUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +374,7 @@
 		967A19312384CFEE005E7A1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,6 +398,7 @@
 		967A19332384CFEE005E7A1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JasonDateUtilsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +416,7 @@
 		967A19342384CFEE005E7A1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JasonDateUtilsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
