@@ -132,6 +132,7 @@ s.source_files = "JasonDateUtils"
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  s.swift_version = "5.0"
+
 
 end
+s.swift_version = "5.0"
