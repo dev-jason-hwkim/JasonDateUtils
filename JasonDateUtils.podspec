@@ -18,15 +18,6 @@ Pod::Spec.new do |spec|
   spec.name         = "JasonDateUtils"
   spec.version      = "0.0.1"
   spec.summary      = "A Simple DateUtils"
-
-  # This description is used to generate tags and improve search results.
-  #   * Think: What does it do? Why did you write it? What is the focus?
-  #   * Try to keep it short, snappy and to the point.
-  #   * Write the description between the DESC delimiters below.
-  #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
-
   spec.homepage     = "https://github.com/dev-jason-hwkim/JasonDateUtils"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -38,20 +29,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
-  #  accepts just a name if you'd rather not provide an email address.
-  #
-  #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
-  #
-
+  # spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "dev-jason-hwkim" => "dev.hwkim@gmail.com" }
   # Or just: spec.author    = "jason"
   # spec.authors            = { "jason" => "jason@kidsnote.com" }
@@ -64,13 +43,10 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "10.0"
-
-  #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
+  spec.ios.deployment_target = '10.0'
+  spec.osx.deployment_target = '10.12'
+  spec.tvos.deployment_target = '10.0'
+  spec.watchos.deployment_target = '3.0'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +66,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-s.source_files = "JasonDateUtils"
+  spec.source_files = "JasonDateUtils"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -132,7 +108,7 @@ s.source_files = "JasonDateUtils"
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+  spec.swift_version = "5.0"
 
 
 end
-s.swift_version = "5.0"
