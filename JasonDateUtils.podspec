@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
 
   # spec.license      = "MIT"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author             = { "dev-jason-hwkim" => "dev.hwkim@gmail.com" }
+  spec.author           = { 'HyunWoo Kim' => 'dev.hwkim@gmail.com' }
   # Or just: spec.author    = "jason"
   # spec.authors            = { "jason" => "jason@kidsnote.com" }
   # spec.social_media_url   = "https://twitter.com/jason"
@@ -55,8 +55,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/dev-jason-hwkim/JasonDateUtils.git", :tag => "#{spec.version}" }
-
+  spec.source           = { :git => 'https://github.com/dev-jason-hwkim/JasonDateUtils.git',
+                            :tag => spec.version.to_s }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
