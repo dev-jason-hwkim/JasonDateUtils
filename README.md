@@ -5,7 +5,7 @@
 [![CocoaPods](https://img.shields.io/cocoapods/v/JasonDateUtils.svg)](https://cocoapods.org/pods/JasonDateUtils)
 
 ## What is JasonDateUtils ?
-* *JasonDateUtils* is a simple Swift framework to manage Date conveniently.
+* *JasonDateUtils* is a simple Swift framework to manage Date conveniently. (Use String, Date Extensions)
 * Version: 0.0.1
 
 ## Installation
