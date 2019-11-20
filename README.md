@@ -25,7 +25,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 use_frameworks!
 target '<Your Target Name>' do
-    pod 'JasonDateUtils', '~> 5.0.0'
+    pod 'JasonDateUtils', '~> 0.0.1'
 end
 ```
 
