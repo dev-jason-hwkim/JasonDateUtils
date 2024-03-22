@@ -1,7 +1,7 @@
 # JasonDateUtils
 
 ![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)
-![Platform](https://cocoapod-badges.herokuapp.com/p/JasonDateUtils/badge.png)
+![Platform](https://img.shields.io/badge/platform-iOS-blue.svg)
 [![CocoaPods](https://img.shields.io/cocoapods/v/JasonDateUtils.svg)](https://cocoapods.org/pods/JasonDateUtils)
 
 ## What is JasonDateUtils ?
